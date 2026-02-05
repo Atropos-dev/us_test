@@ -1,0 +1,17 @@
+{
+  "name": "us-test",
+  "version": "1.0.0",
+  "scripts": {
+    "theme:pull": "shopify theme pull --store lorem-ipsum-dolor-site",
+    "theme:dev": "shopify theme dev --store lorem-ipsum-dolor-site",
+    "css:build:3": "npx tailwind -i ./assets/_tw-input@3.css -o ./assets/_custom.css --watch --minify",
+    "css:build:4": "npx @tailwindcss/cli -i ./assets/_tw-input@4.css -o ./assets/_custom.css --watch --minify"
+  },
+  "author": "SV",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}

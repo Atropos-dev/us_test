@@ -1,0 +1,13 @@
+package.json
+package-lock.json
+tailwind.config.*
+tw-*.css
+.stylelint
+.eslintrc
+.env.example
+.env
+.editorconfig
+.husky
+.vscode
+tailwind
+node_modules
